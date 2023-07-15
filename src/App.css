@@ -39,6 +39,20 @@ h1 {
   width: fit-content;
 }
 
+#mp-h1 {
+  font-size: 3rem;
+  letter-spacing: 0.9px;
+  background: linear-gradient(
+    90deg,
+    rgba(249, 211, 180, 1) 0%,
+    rgba(249, 211, 180, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+}
+
 .search {
   width: 71%;
   margin: 4rem 0 2rem;
@@ -117,6 +131,7 @@ h1 {
   width: 310px;
   height: 460px;
   margin: 1.5rem;
+  cursor: pointer;
 
   position: relative;
   border-radius: 12px;
@@ -160,6 +175,26 @@ h1 {
   bottom: 0;
   right: 0;
   left: 0;
+}
+
+.movie-details {
+  border-radius: 12px;
+  background-color: #343739;
+  padding: 16px 24px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  width: 310px;
+}
+
+.movie-details span {
+  color: #f0f0f0;
+}
+
+.movie-details h3 {
+  margin-top: 5px;
+  font-family: "Roboto Slab", serif;
+  color: #f9d3b4;
 }
 
 .movie div:nth-of-type(3) span {

@@ -52,7 +52,7 @@ function App() {
       </div>
 
       <div className="container">
-        {movies.map( (movie) => <MovieCard key={movie.imdbID} year={movie.Year} poster={movie.Poster} title={movie.Title} type={movie.type} />)}
+        {movies.map( (movie) => <MovieCard key={movie.imdbID} year={movie.Year} poster={movie.Poster} title={movie.Title} type={movie.Type} />)}
       </div>
     </div>
   )
